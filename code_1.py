@@ -8,4 +8,3 @@ for filename in os.listdir(folderPath):
 	os.rename(folderPath + '/' + filename, folderPath +'/'+ str(fileSequence)+".jpg")
 	fileSequence +=1
 
-	
